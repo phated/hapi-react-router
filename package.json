@@ -1,0 +1,36 @@
+{
+  "name": "hapi-react-router",
+  "version": "0.0.0",
+  "description": "Hapi plugin to integrate React Router",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "phated/hapi-react-router",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "lab -cvL"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "hapi": "^8.0.0",
+    "react": "^0.13.2",
+    "react-router": "^0.13.2"
+  },
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.6.1"
+  },
+  "keywords": [
+    "hapi",
+    "rackt",
+    "react",
+    "react router"
+  ]
+}
