@@ -10,7 +10,7 @@ function hapiReactRouter(server, options, done){
   server.decorate('reply', 'router', function(data){
     var response = this.response().hold();
 
-    Router.run(routes, this.request.path, function(Handler){
+    Router.run(routes, this.request.url.path, function(Handler){
       var component = React.createElement(Handler, data);
       var html = React.renderToString(component);
       response.source = html;
